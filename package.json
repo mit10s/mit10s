@@ -1,6 +1,6 @@
 {
   "name": "mit10s",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "GPLv3",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -27,7 +27,10 @@
     "entry": [
       "src/index.ts"
     ],
-    "format": ["cjs", "esm"],
+    "format": [
+      "cjs",
+      "esm"
+    ],
     "dts": true,
     "clean": true
   }
