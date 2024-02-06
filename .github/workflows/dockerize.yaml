@@ -1,0 +1,28 @@
+name: Dockerize
+on:
+  workflow_run:
+    workflows: [Publish]
+    branches: [main]
+    types: [completed]
+
+concurrency: ${{ github.workflow }}-${{ github.ref }}
+
+jobs:
+  build:
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Docker login
+        env:
+          DOCKER_USER: ${{ secrets.DOCKER_USERNAME }}
+          DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
+        run: |
+          docker login -u $DOCKER_USER -p $DOCKER_PASSWORD
+
+      - name: Build Docker image
+        run: docker build . --file Dockerfile --tag turmagangtech/mit10s:${{ github.sha }} --no-cache
+
+      - name: Docker push
+        run: docker push turmagangtech/mit10s:${{ github.sha }}

@@ -14,11 +14,13 @@ npx changeset
 
 It will trigger the following PR from changeset which will increment and publish everything that's needed.
 
-### Creating Docker image
+### Creating Docker image (done though GitHub action, w/ some modifications)
 
 ```sh
 # burst cache to make npm install the latest mit10s version
-docker build --build-arg CACHEBUST=$(date +%s) -t mit10s .
+# docker build --build-arg CACHEBUST=$(date +%s) -t mit10s .
+# but should work without that, just like:
+docker build --no-cache -t mit10s . 
 
 # tagging needs to be further worked on
 docker tag mit10s turmagangtech/mit10s
