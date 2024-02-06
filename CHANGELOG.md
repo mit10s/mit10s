@@ -1,5 +1,11 @@
 # mit10s
 
+## 0.1.2
+
+### Patch Changes
+
+- d8398ed: Add Dockerfile and corresponding flow (as a start)
+
 ## 0.1.1
 
 ### Patch Changes
