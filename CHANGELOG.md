@@ -1,5 +1,11 @@
 # mit10s
 
+## 0.1.3
+
+### Patch Changes
+
+- 91f1638: Cachebursting for Docker image generation
+
 ## 0.1.2
 
 ### Patch Changes
