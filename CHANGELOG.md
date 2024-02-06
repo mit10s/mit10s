@@ -1,5 +1,11 @@
 # mit10s
 
+## 0.1.4
+
+### Patch Changes
+
+- 6677fdd: Add GitHub action workflow for Dockerizing
+
 ## 0.1.3
 
 ### Patch Changes
