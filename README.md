@@ -6,6 +6,8 @@ API security vulnerabilities scout
 
 ### Publishing changes
 
+Pull `main` before starting work on a change.
+
 Each change that should be followed by a release version should be accompanied by the following changelog-generating command:
 
 ```sh
