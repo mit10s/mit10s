@@ -1,7 +1,13 @@
-FROM node:latest
+FROM node:18
 
-# Uncomment if cache busrting will really be required
-# ARG CACHEBUST
-RUN npm install -g mit10s && npm cache clean --force
+WORKDIR /app
 
-CMD mit10s
+COPY package*.json ./
+
+RUN npm install
+
+COPY src/ .
+
+RUN npm run build
+
+CMD ["node", "bin/cli.js"]
