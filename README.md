@@ -2,6 +2,14 @@
 
 API security vulnerabilities scout
 
+## General information
+
+The tool is early active development. To run the main vulnerability analysis flow now, you can call:
+
+```sh
+mit10s scout
+```
+
 ## Dev flow
 
 ### Publishing changes
