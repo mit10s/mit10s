@@ -1,6 +1,6 @@
 # mit10s
 
-API security vulnerabilities scout
+Security scanning tool for API codebases
 
 ## Getting started
 
