@@ -1,5 +1,11 @@
 # mit10s
 
+## 0.2.0
+
+### Minor Changes
+
+- 2e51fa5: Create basic CLI format and output
+
 ## 0.1.6
 
 ### Patch Changes
