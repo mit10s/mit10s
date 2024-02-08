@@ -4,7 +4,7 @@
 
 ### Minor Changes
 
-- 67cbf3d: Create basic CLI format and output
+- 2e51fa5: Create basic CLI format and output
 
 ## 0.1.6
 
