@@ -4,7 +4,7 @@ Security scanning tool for API codebases
 
 ## Getting started
 
-The tool is early active development. To run the main vulnerability analysis flow now, you can install the CLI package globally with `npm`:
+The tool is early development. To run the main vulnerability analysis flow now, you can install the CLI package globally with `npm`:
 
 ```sh
 npm install -g mit10s
