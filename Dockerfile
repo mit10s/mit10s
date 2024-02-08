@@ -8,6 +8,6 @@ RUN npm install
 
 COPY src ./src
 
-RUN npm run build
+RUN npm run build && npm link
 
-CMD ["node", "bin/cli.js"]
+ENTRYPOINT [ "mit10s" ]

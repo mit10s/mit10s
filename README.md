@@ -2,15 +2,28 @@
 
 API security vulnerabilities scout
 
-## General information
+## Getting started
 
-The tool is early active development. To run the main vulnerability analysis flow now, you can call:
+The tool is early active development. To run the main vulnerability analysis flow now, you can install the CLI package globally with `npm`:
+
+```sh
+npm install -g mit10s
+```
+
+and start vulnerability analysis by running:
 
 ```sh
 mit10s scout
 ```
 
-## Dev flow
+Alternatively, you can use Docker:
+
+```sh
+docker pull turmagangtech/mit10s:latest
+docker run -it --rm turmagangtech/mit10s:latest scout
+```
+
+## Development flow
 
 ### Publishing changes
 
