@@ -1,5 +1,11 @@
 # mit10s
 
+## 0.2.2
+
+### Patch Changes
+
+- c656615: Add repository information to package metadata
+
 ## 0.2.1
 
 ### Patch Changes
