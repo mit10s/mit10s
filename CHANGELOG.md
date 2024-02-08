@@ -1,5 +1,11 @@
 # mit10s
 
+## 0.2.1
+
+### Patch Changes
+
+- dd4cd7c: Provide possibility to run mit10s through Docker with CLI arguments
+
 ## 0.2.0
 
 ### Minor Changes
