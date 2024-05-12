@@ -22,7 +22,7 @@ jobs:
           docker login -u $DOCKER_USER -p $DOCKER_PASSWORD
 
       - name: Build Docker image
-        run: docker build --no-cache --tag turmagangtech/mit10s:${{ github.sha }} .
+        run: docker build --no-cache --tag mit10s/mit10s:${{ github.sha }} .
 
       - name: Docker push
-        run: docker push turmagangtech/mit10s:${{ github.sha }}
+        run: docker push mit10s/mit10s:${{ github.sha }}

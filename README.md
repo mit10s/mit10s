@@ -19,8 +19,8 @@ mit10s scout
 Alternatively, you can use Docker:
 
 ```sh
-docker pull turmagangtech/mit10s:latest
-docker run -it --rm turmagangtech/mit10s:latest scout
+docker pull mit10s/mit10s:latest
+docker run -it --rm mit10s/mit10s:latest scout
 ```
 
 ## Development flow
