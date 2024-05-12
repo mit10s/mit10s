@@ -1,5 +1,11 @@
 # mit10s
 
+## 0.2.3
+
+### Patch Changes
+
+- da90ba0: Update repository and docker credentials
+
 ## 0.2.2
 
 ### Patch Changes
